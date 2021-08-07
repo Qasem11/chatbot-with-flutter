@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chatbot"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:4:4-65
+14-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:4:21-63
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:3:4-69
+15-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:3:21-67
+16
+17    <queries>
+17-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:43:5-47:15
+18        <intent>
+18-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:44:7-46:16
+19            <action android:name="android.speech.RecognitionService" />
+19-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:45:11-70
+19-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:45:19-67
+20        </intent>
+21        <intent>
+21-->[:flutter_tts] C:\Users\QASEM\Desktop\program\smart methods\chatbot\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-12:18
+22            <action android:name="android.intent.action.TTS_SERVICE" />
+22-->[:flutter_tts] C:\Users\QASEM\Desktop\program\smart methods\chatbot\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-72
+22-->[:flutter_tts] C:\Users\QASEM\Desktop\program\smart methods\chatbot\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:11:21-69
+23        </intent>
+24    </queries>
+25
+26    <application
+26-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:5:4-42:19
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\QASEM\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:7:9-43
+30        android:label="chatbot" >
+30-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:6:9-32
+31        <activity
+31-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:8:9-36:20
+32            android:name="com.example.chatbot.MainActivity"
+32-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:9:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:12:13-163
+34            android:hardwareAccelerated="true"
+34-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:13:13-47
+35            android:launchMode="singleTop"
+35-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:10:13-43
+36            android:theme="@style/LaunchTheme"
+36-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:11:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:14:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:19:13-22:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:20:15-70
+47                android:resource="@style/NormalTheme" />
+47-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:21:15-52
+48            <!--
+49                 Displays an Android View that continues showing the launch screen
+50                 Drawable until Flutter paints its first frame, then this splash
+51                 screen fades out. A splash screen is useful to avoid any visual
+52                 gap between the end of Android's launch screen and the painting of
+53                 Flutter's first frame.
+54            -->
+55            <meta-data
+55-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:28:13-31:17
+56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+56-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:29:15-79
+57                android:resource="@drawable/launch_background" />
+57-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:30:15-61
+58
+59            <intent-filter>
+59-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:32:13-35:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:33:17-68
+60-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:33:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:34:17-76
+62-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:34:27-74
+63            </intent-filter>
+64        </activity>
+65        <!--
+66             Don't delete the meta-data below.
+67             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+68        -->
+69        <meta-data
+69-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:39:9-41:33
+70            android:name="flutterEmbedding"
+70-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:40:13-44
+71            android:value="2" />
+71-->C:\Users\QASEM\Desktop\program\smart methods\chatbot\android\app\src\main\AndroidManifest.xml:41:13-30
+72    </application>
+73
+74</manifest>
